@@ -1,0 +1,283 @@
+[5:23 pm, 6/12/2024] +91 70739 42194: # Printing Using Escape Sequences In Python
+
+# Escape sequence is a character. It has special effect on the output the escape sequence is a combination of two letters where the first character has to be a back slash ( \ ) and second letter can be an alphabet or a symbol.
+# A escape sequence is used to show some affect on the console output. Following are most commonly used Escape Sequences:
+# \n   line feed or newline
+# \b   backspace
+# \a   alert or bell
+# \f   form feed
+# \r   carriage return
+# \t   horizontal tab
+# \v   vertical tab
+# \\   backslash
+# \'   single quote  (valid escape only within rune literals)
+# \"   double quote  (valid escape only within string literals)
+
+[5:53 pm, 6/12/2024] +91 70739 42194: 
+>>> print("Hello \vWorld")
+Hello 
+      World
+>>> 
+
+
+[6:18 pm, 6/12/2024] +91 70739 42194: 
+# New Line \n
+
+# This character is used to redirect output in a new line.
+# backspace \b
+
+# This sequence can remove the characters from the console.
+
+#     Adding the same as first element of string will not impact anything
+
+# Alert or Bell \a
+
+# This sequence will generate a bell sound once per execution adding the same multiple time will not going to create multiple voices.
+
+# Vertical Tag Character \v
+
+# Vertical Sequence redirects the output in the line but the output in next line starts from where it displayed the string in the first line.
+
+# Horizontal Tab \t
+
+# Horizontal tab sequence will add a tab in the console output.
+
+# Carriage Return \r
+
+# Anything written before this sequence will not be visible on the console.
+
+# Form Feed \f
+
+# This will add a spacial type of pointer that represents end of a page. We can not see the same in console.
+
+# backslash \, single quote ', double quote "
+
+# backslash \\ sequence is used to display \ in the console. single quote \' sequence is used to display ' in the console double quote \" sequence is used to display " in the console
+
+
+[4:45 pm, 16/12/2024] +91 70739 42194: Numbers             1234, 3.1415, 3+4j, 0b111, Decimal(), Fraction()
+Strings             'spam', "Bob's", b'a\x01c', u'sp\xc4m'
+Lists               [1, [2, 'three'], 4.5], list(range(10))
+Dictionaries        {'food': 'spam', 'taste': 'yum'}, dict(hours=10)
+Tuples              (1, 'spam', 4, 'U'), tuple('spam'), namedtuple
+Filesopen           ('eggs.txt'), open(r'C:\ham.bin', 'wb')
+Setsset             ('abc'), {'a', 'b', 'c'}
+Other core types    Booleans, types, None
+
+[4:49 pm, 16/12/2024] +91 70739 42194: 
+Rules To Create Variable Names in Python
+
+The name of a variable can be composed of letters, digits and the underscores.
+
+    A variable names can not have any character then underscore _.
+    A variable names can not start with an numeric value
+    Variable names in Python are case sensitive ( variable name system and System are not same ).
+    It should not be a keyword of Python.
+
+[5:06 pm, 16/12/2024] +91 70739 42194: A human readable name which we give to a value.
+[5:09 pm, 16/12/2024] +91 70739 42194: We can initialize a variable as many time we want in python.
+
+To initialize a variable we have to pass the name of variable and a value.
+
+
+
+input in python
+
+input("Any string we want to print")
+// Execution will wait for the input 
+
+abc = input("Any string we want to print")
+will store the input in abc
+
+input function always take input in form of string
+
+
+type tell the type of the value
+
+
+Type Conversion In Python:
+
+when we convert a data type into another data type names as type conversion.
+
+int,
+float,
+str,
+list,
+tuple,
+set,
+dict,
+bool
+
+
+
+Concept Of True and False Values
+    Any `non 0` value is a True value ( 1, 4, 5, -5, -6 )
+    Any non empty array or string are also True value ( [ 1, 2, 3 ], “Test” )
+    Any empty array or string are also False value ( [], “” )
+    0 is considered as a False Value
+    None and False also considered as False value
+
+
+1. Arithmetic Operators
+These operators are used to perform mathematical operations.
+
+`+`	Addition	5 + 3 results in 8
+`-`	Subtraction	5 - 3 results in 2
+`*`	Multiplication	5 * 3 results in 15
+`/`	Division	5 / 3 results in 1.666...
+`%`	Modulus	5 % 3 results in 2 (remainder of division)
+`//`	Floor Division	5 // 3 results in 1 (integer result)
+`**`	Exponentiation	5 ** 3 results in 125
+
+2. Comparison (Relational) Operators
+These operators are used to compare two values.
+
+`==`	Equal to	5 == 3 results in `False`
+`!=`	Not equal to	5 != 3 results in `True`
+`>`	Greater than	5 > 3 results in `True`
+`<`	Less than	5 < 3 results in `False`
+`>=`	Greater than or equal to	5 >= 3 results in `True`
+`<=`	Less than or equal to	5 <= 3 results in `False`
+
+3. Logical Operators
+These operators are used to combine conditional statements.
+
+`and`	Logical AND	True and False results in False
+`or`	Logical OR	True or False results in True
+`not`	Logical NOT	not True results in False
+
+
+## and operator
+
+* If both values are True then it will pick the one on Right
+* If Any value is False it will pick the False value
+
+## or operator
+
+* If both the values are True It will pick the one on Left
+* If any of the value is True it will pick the True one
+* If both the value are False then it will pick the Right side value
+
+
+4. Assignment Operators
+These operators are used to assign values to variables.
+
+`=`	Assign	x = 5 assigns 5 to x
+`+=`	Add and assign	x += 3 `x = x + 3`
+`-=`	Subtract and assign	x -= 2 subtracts 2 from x
+`*=`	Multiply and assign	x *= 2 multiplies x by 2
+`/=`	Divide and assign	x /= 2 divides x by 2
+`//=`	Floor divide and assign	x //= 2 floor divides x by 2
+`%=`	Modulus and assign	x %= 2 assigns the remainder of x / 2 to x
+`**=`	Exponentiate and assign	x **= 2 squares x
+
+5. Identity Operators
+These operators are used to compare objects' memory locations.
+
+`is`	validate of both values are of same data type and are equal
+`is not`	validate of both values are of same data type and are equal
+
+6. Membership Operators
+These operators are used to check if a value is present in a sequence (like a list, tuple, or string).
+
+`in`	Checks if a value is in a sequence	3 in [1, 2, 3] returns True
+`not in`	Checks if a value is not in a sequence	4 not in [1, 2, 3] returns True
+
+
+
+Iterators:
+
+They are a collection of elements and has capability to iterate them.
+
+
+Strings:
+
+Each value has a index and we can access them via `[]` operator.
+we can use `\` to continue the sting in next line.
+We can use escape sequence in a string.
+Strings are immutable.
+
+
+Length Function:
+
+It tell us the length of a iterator.
+example: len( value )
+
+
+https://pymbook.readthedocs.io/en/latest/strings.html#different-methods-available-for-strings
+
+
+
+
+# "something": "something"
+# key           value
+
+a = { 
+    "loc": "Alwar", 
+    "mob": "88744321",
+    "name": "Vipin Kumar",
+    }
+
+
+# a.update(locd = "Jaipur")
+
+# b = a.fromkeys("abcdefg", 54)
+# {'a': 54, 'b': 54, 'c': 54, 'd': 54, 'e': 54, 'f': 54, 'g': 54}
+
+print(a)
+
+# Immutables:
+# Set,
+# Strings,
+# tuple
+
+# POP method
+# list - last
+# set - starting
+# dict - pop ( requires key)
+# dict - popitem last ( requires key)
+
+
+https://pymbook.readthedocs.io/en/latest/datastructure.html
+
+
+
+
+
+# a = {
+#     "id": 1,
+#     "todo": "Do something nice for someone you care about",
+#     "completed": False,
+#     "userId": 152
+# }
+
+
+# for x in a:
+#     print(x, ":", a[x])
+
+# for loop
+# https://pymbook.readthedocs.io/en/latest/looping.html#for-loop
+
+# range Function 
+# https://pymbook.readthedocs.io/en/latest/looping.html#range-function
+
+using 1 argument:
+range(N) it will return a iterator of numbers from 0 - N-1
+
+using 2 argument:
+range(X, Y) it will return a iterator of numbers from X to Y - 1
+
+using 3 argument:
+range(X, Y, Z) it will return a iterator of numbers from X to Y - 1 with a difference of Z
+
+
+Slicing:
+
+[] using 1 argument:
+[ : ] it will return a iterator from 0 - N-1
+
+[] using 2 argument:
+[X : Y] will return from X to Y - 1
+
+[] using 3 argument:
+[X : Y : Z] will return a iterator from X to Y - 1 with a difference of Z
