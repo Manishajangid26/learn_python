@@ -10,7 +10,7 @@
 # 4321
 i = 1
 while i <= 5:
-    print("-" * (5-i),end="")
+    print(" " * (5-i),end="")
 
     j = 1
     while j <= i:
