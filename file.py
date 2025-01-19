@@ -1,0 +1,1 @@
+file = open("C:/Users/EXPERT COMPUTER/Desktop/website/manu/notes.text")
