@@ -1,4 +1,4 @@
-[5:23 pm, 6/12/2024] +91 70739 42194: # Printing Using Escape Sequences In Python
+ # Printing Using Escape Sequences In Python
 
 # Escape sequence is a character. It has special effect on the output the escape sequence is a combination of two letters where the first character has to be a back slash ( \ ) and second letter can be an alphabet or a symbol.
 # A escape sequence is used to show some affect on the console output. Following are most commonly used Escape Sequences:
@@ -13,14 +13,14 @@
 # \'   single quote  (valid escape only within rune literals)
 # \"   double quote  (valid escape only within string literals)
 
-[5:53 pm, 6/12/2024] +91 70739 42194: 
+
 >>> print("Hello \vWorld")
 Hello 
       World
 >>> 
 
 
-[6:18 pm, 6/12/2024] +91 70739 42194: 
+
 # New Line \n
 
 # This character is used to redirect output in a new line.
@@ -55,7 +55,7 @@ Hello
 # backslash \\ sequence is used to display \ in the console. single quote \' sequence is used to display ' in the console double quote \" sequence is used to display " in the console
 
 
-[4:45 pm, 16/12/2024] +91 70739 42194: Numbers             1234, 3.1415, 3+4j, 0b111, Decimal(), Fraction()
+ Numbers             1234, 3.1415, 3+4j, 0b111, Decimal(), Fraction()
 Strings             'spam', "Bob's", b'a\x01c', u'sp\xc4m'
 Lists               [1, [2, 'three'], 4.5], list(range(10))
 Dictionaries        {'food': 'spam', 'taste': 'yum'}, dict(hours=10)
@@ -64,7 +64,7 @@ Filesopen           ('eggs.txt'), open(r'C:\ham.bin', 'wb')
 Setsset             ('abc'), {'a', 'b', 'c'}
 Other core types    Booleans, types, None
 
-[4:49 pm, 16/12/2024] +91 70739 42194: 
+
 Rules To Create Variable Names in Python
 
 The name of a variable can be composed of letters, digits and the underscores.
@@ -74,8 +74,8 @@ The name of a variable can be composed of letters, digits and the underscores.
     Variable names in Python are case sensitive ( variable name system and System are not same ).
     It should not be a keyword of Python.
 
-[5:06 pm, 16/12/2024] +91 70739 42194: A human readable name which we give to a value.
-[5:09 pm, 16/12/2024] +91 70739 42194: We can initialize a variable as many time we want in python.
+A human readable name which we give to a value.
+We can initialize a variable as many time we want in python.
 
 To initialize a variable we have to pass the name of variable and a value.
 
