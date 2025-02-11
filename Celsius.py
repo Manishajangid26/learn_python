@@ -4,4 +4,4 @@ def celsius_To_Fahrenheit(c):
     print(Fahrenheit)
     return Fahrenheit
 
-celsius_To_Fahrenheit(60)   
+celsius_To_Fahrenheit(70)   
