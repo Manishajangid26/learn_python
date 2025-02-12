@@ -1,0 +1,35 @@
+len() = return the length of the give string.
+
+title() = return the string with first letter of every word in the string in uppercase and rest in lowercase.
+
+lower() = return the string with all uppercase letter convert to lowercase.
+
+upper() = return the string whit all lowercase letter convert to uppercase.
+
+count() = return numbers of items substring str accurs in the gevin string . If we do not give start index 
+          and end index then searching starts index from 0 and ends of length of the string.
+
+find() = return the first occurrence of index of substring str occurring in the geiven string. If we do not give
+         start and end then searching start   
+
+index() = same as find but raises an exception if the substring is not present in the gevin string.
+
+endwith() = return true if the given string ends with the supplied substring otherwise returens False.
+
+startwith() = return true if the given string start with the supplied substring otherwise return False.
+
+isalnum() = return true if character of the given starting are either alphabet or numeric. If whitespace 
+            or special symbols are part of the given string or the string is empty it return False.
+
+isspace() = return true if the string is non empty and all character are whitespace (blank,tab,newline,carriage return)
+
+islower() = return true if the string is non empty and has all lower case alphabet ,or has at least one 
+            character as lowercase alphabet and rest are non alphabet character.
+
+isupper() = return true if the string is non empty and has all uppercase alphabet or has at least one 
+            character as uppercase alphabet and rest are non alphabet character.
+
+istitle() = return true if the string is non empty and title case . the first letter of every word in the
+            string in uppercase and rest in lowercase.
+
+            

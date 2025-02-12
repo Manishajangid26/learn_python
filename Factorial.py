@@ -1,3 +1,5 @@
+# Write a function factorial() that calculates the factorial of a given non-negative integer.
+
 
 def Factorial(n):
     fact = 1

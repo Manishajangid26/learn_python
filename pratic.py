@@ -19,7 +19,7 @@
 
 sale = int(input("enter your sales:"))
 basic = 3000
-hra =     (basic*20)/100
+hra = (basic*20)/100
 da = (basic*110)/100
 converyance = 500
 bonus = 500

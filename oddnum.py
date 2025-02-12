@@ -1,4 +1,4 @@
-# Write a program to print all odd Number till 50.
+# 1. Write a program to print all odd Number till 50.
 
 
 

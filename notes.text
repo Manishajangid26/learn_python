@@ -1,4 +1,4 @@
- # Printing Using Escape Sequences In Python
+[5:23 pm, 6/12/2024] +91 70739 42194: # Printing Using Escape Sequences In Python
 
 # Escape sequence is a character. It has special effect on the output the escape sequence is a combination of two letters where the first character has to be a back slash ( \ ) and second letter can be an alphabet or a symbol.
 # A escape sequence is used to show some affect on the console output. Following are most commonly used Escape Sequences:
@@ -13,14 +13,14 @@
 # \'   single quote  (valid escape only within rune literals)
 # \"   double quote  (valid escape only within string literals)
 
-
+[5:53 pm, 6/12/2024] +91 70739 42194: 
 >>> print("Hello \vWorld")
 Hello 
       World
 >>> 
 
 
-
+[6:18 pm, 6/12/2024] +91 70739 42194: 
 # New Line \n
 
 # This character is used to redirect output in a new line.
@@ -55,7 +55,7 @@ Hello
 # backslash \\ sequence is used to display \ in the console. single quote \' sequence is used to display ' in the console double quote \" sequence is used to display " in the console
 
 
- Numbers             1234, 3.1415, 3+4j, 0b111, Decimal(), Fraction()
+[4:45 pm, 16/12/2024] +91 70739 42194: Numbers             1234, 3.1415, 3+4j, 0b111, Decimal(), Fraction()
 Strings             'spam', "Bob's", b'a\x01c', u'sp\xc4m'
 Lists               [1, [2, 'three'], 4.5], list(range(10))
 Dictionaries        {'food': 'spam', 'taste': 'yum'}, dict(hours=10)
@@ -64,7 +64,7 @@ Filesopen           ('eggs.txt'), open(r'C:\ham.bin', 'wb')
 Setsset             ('abc'), {'a', 'b', 'c'}
 Other core types    Booleans, types, None
 
-
+[4:49 pm, 16/12/2024] +91 70739 42194: 
 Rules To Create Variable Names in Python
 
 The name of a variable can be composed of letters, digits and the underscores.
@@ -74,8 +74,8 @@ The name of a variable can be composed of letters, digits and the underscores.
     Variable names in Python are case sensitive ( variable name system and System are not same ).
     It should not be a keyword of Python.
 
-A human readable name which we give to a value.
-We can initialize a variable as many time we want in python.
+[5:06 pm, 16/12/2024] +91 70739 42194: A human readable name which we give to a value.
+[5:09 pm, 16/12/2024] +91 70739 42194: We can initialize a variable as many time we want in python.
 
 To initialize a variable we have to pass the name of variable and a value.
 
@@ -281,3 +281,212 @@ Slicing:
 
 [] using 3 argument:
 [X : Y : Z] will return a iterator from X to Y - 1 with a difference of Z
+
+
+
+
+
+Function Notes:
+
+Modular programming:
+
+Modular programming is programming concept. This concept allow us to divide a large solution into several small modules. Each module is developed independently and act is a solution of small problem.
+Need/Advantages of modular programming :
+
+    A module developed once and reuse several times in a program.
+    Due to readability, A problem will have less no of instruction.
+    A problem has less numbers of instruction has less number of errors.
+    program is easily maintainable .
+    program is easily extendable.
+
+In Python language to apply modular programming we use functions, Classes and Method.
+
+Function:-
+
+A function is an individual unit of small set of instruction to solve a specific task. Function may be inbuilt or user Define.
+
+User define function:- If a function not exist in language, it can be developed by the user. The development of a function has 3 steps.
+
+    Function declaration ( Prototype )
+    Function calling
+    Function definition
+
+Scope of Variables:
+If we define a variable in a function it stays in that function ( nobody knows it out of function )
+
+global -> we use this keyword to import a variable form the global scope
+
+https://pymbook.readthedocs.io/en/latest/functions.html#defining-a-function
+
+
+String Formation:
+
+a = 23
+b = 34
+c = 56
+
+# print( a, b, c )
+# A is 23, B is 34 and C is 56
+# print( f"A is {a}, B is {b} and C is {c}" )
+# print( "A is {}, B is {} and C is {}".format( a, b, c) )
+# print( "A is %s, B is %s and C is %s" % (a, b, c) )
+
+
+ Notes 
+
+
+Absolute Path:
+    Starts from Thank you for your business! We look forward to working with you again.
+    They do not change with users
+
+Relative Path:
+    Starts from current working folder
+
+
+Files:
+Text - they have test
+Binary - they are stored in binary format
+
+https://pymbook.readthedocs.io/en/latest/file.html
+
+/home/vipikuma/python_classes/log.txt
+
+
+
+https://youtu.be/xFTFfDkl2J4
+
+
+
+Notes:
+
+Absolute Path:
+    Starts from /
+    They do not change with users
+
+Relative Path:
+    Starts from current working folder
+
+
+Files:
+Text - they have test
+Binary - they are stored in binary format
+
+https://pymbook.readthedocs.io/en/latest/file.html
+
+
+read:
+read -> This method read the file content and return it all at once.
+readline -> This method return a single line of file at once. 
+readlines -> This method return all file content in form of a list this list has all lines as it's element
+
+write:
+write
+writelines
+
+close.
+
+
+file_1_data = file_2_data = file_3_data = ""
+
+with open("files/file1") as file_1:
+    file_1_data = file_1.readlines()
+    
+with open("files/file2") as file_2:
+    file_2_data = file_2.readlines()
+
+with open("files/file3") as file_3:
+    file_3_data = file_3.readlines()
+
+with open("files/file4", "a") as file_4:
+    file_4.writelines(file_1_data)
+    file_4.writelines(file_2_data)
+    file_4.writelines(file_3_data)
+
+
+Error Handling:
+https://pymbook.readthedocs.io/en/latest/exceptions.html
+
+
+try:
+    print(a)
+    print( 5 / 0 )
+    print("var not found")
+except NameError :
+    print("okay let's go variable error")
+finally:
+    print("program complete")
+```
+
+
+dir() -> This function return all the available attributes of any object.
+
+_name_ -> If I am calling the file using python it has the string "_main_" else it has the file name.
+_file_ -> This function has the files absolute path
+
+import <file_name> import the file
+
+import <file_name> as <new_name> we can rename a module/file using as keyword
+
+
+# from add import *
+# from add import addition
+
+# print ( addition( 2, 3) )
+# print( var1 )
+
+
+# import add
+
+# print(add.addition( 2 , 3))
+# print(dir())
+
+
+import os
+import requests
+
+
+# userdata = os.uname()
+# print(userdata)
+
+# pat_checker = os.path.exists("set.py")
+# print(pat_checker)
+
+# print(os.listdir("/home/vipikuma/python_classes"))
+
+test = requests.get("http://google.com")
+
+print(test)
+print(test.text)
+
+https://pymbook.readthedocs.io/en/latest/modules.html
+
+
+default parameters -> There are the optional parameters
+Note: first we have to write the non default parameters then we can write default parameters
+
+def my_func(c , d ,a = 1, b = 2, e = 5, f = 6):
+    print( a, b, c, d, e, f )
+
+my_func(23, 34)
+
+
+https://www.youtube.com/watch?v=1DFjLkAGoYw
+
+
+default parameters -> There are the optional parameters
+Note: first we have to write the non default parameters then we can write default parameters
+
+def my_func(c , d ,a = 1, b = 2, e = 5, f = 6):
+    print( a, b, c, d, e, f )
+
+my_func(23, 34)
+
+
+pip - A tool to manage your Packages (Finding,Installing,Removing.Listing)
+
+pip -help or just pip 
+pip -> List all installed
+Packages
+pip install -> To install Packages
+pip unistall -> To remove
+Packages 

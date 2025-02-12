@@ -2,11 +2,15 @@
 
 
 num = 1
+positive = 0
+negative = 0
 while num<=10:
     number = int(input("enter a number :"))
     if number>0:
-        print(number,"positive number")
+        positive += 1
     else:
-        print("negative number")
+       negative += 1
     
     num += 1       
+print("positive number",positive)
+print("negitive number",negative)
