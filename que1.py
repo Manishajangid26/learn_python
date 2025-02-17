@@ -5,3 +5,6 @@ def number(a,b,c):
    return [a,b,c]
 
 print(number(1,2,3))   
+
+   
+
